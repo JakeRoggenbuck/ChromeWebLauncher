@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Quick Launcher</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <style>
+    html,
+    body {
+      background-color: #222222;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      margin: 0;
+      min-height: 180px;
+      padding: 0;
+      width: 384px;
+    }
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      margin: 0;
+      color: #21a6f6;
+    }
+    a:link,
+    a:visited {
+      color: #000000;
+      outline: 0;
+      text-decoration: none;
+    }
+    img {
+      width: 30px;
+    }
+    .modal-header {
+      align-items: center;
+      border-bottom: 0.5px solid #dadada;
+    }
+    .modal-content {
+      padding: 0 22px;
+    }
+    .modal-icons {
+      border-top: 0.5px solid #dadada;
+      height: 50px;
+      width: 100%;
+    }
+    .logo {
+      padding: 16px;
+    }
+    .logo-icon {
+      vertical-align: text-bottom;
+      margin-right: 12px;
+    }
+    .version {
+      color: #aaaaaa;
+      font-size: 18px;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 22px;
+    }
+    .flex {
+      opacity: 1;
+      transition: opacity 0.2s ease-in-out;
+      width: 120px;
+    }
+    .flex:hover {
+      opacity: 0.4;
+    }
+    .flex .fab {
+      font-size: 40px;
+      color: #21a6f6;
+    }
+    .flex .fas {
+      font-size: 40px;
+      color: #21a6f6;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal-header">
+    <h1 class="logo">
+      Jake's Launcher
+      <span class="version">(2.0.0)</span>
+    </h1>
+  </div>
+  <div class="modal-icons">
+    <div class="flex-container">
+      <div class="flex">
+        <a href="https://www.youtube.com" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.github.com" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://citruscircuits1678.slack.com" target="_blank">
+          <i class="fab fa-slack"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://drive.google.com" target="_blank">
+          <i class="fab fa-google-drive"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://www.amazon.com/" target="_blank">
+          <i class="fab fa-amazon"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="https://mail.google.com" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+      <div class="flex">
+        <a href="http://jakeroggenbuck.com" target="_blank">
+          <i class="fas fa-globe"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
